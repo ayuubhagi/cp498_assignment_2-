@@ -5,32 +5,32 @@ harness that pits them against each other. Group project for CP468.
 
 ## Team (5 members)
 
-| # | Person | Owns | Status |
+| # | Member | Part | Status |
 |---|---|---|---|
 | 1 | Ayuub | engine + random agent (Part 1) | done |
-| 2 | Mohanad139 | rule-based agent | not started |
-| 3 | YakupBastug06 | minimax / alpha-beta agent | not started |
-| 4 | KhaledM0barak | experiment harness + results | not started |
-| 5 | (5th member) | report + demo video + integration testing | not started |
+| 2 | Mohanad139 | group member (part not chosen yet) | - |
+| 3 | YakupBastug06 | group member (part not chosen yet) | - |
+| 4 | KhaledM0barak | group member (part not chosen yet) | - |
+| 5 | orhangundogan | group member (part not chosen yet) | - |
 
-Names above are a proposed split. Swap roles however the group agrees, then
-update this table. Member 5 owns the written report and the video, and runs
-`python3 test_engine.py` before each merge to keep `main` green.
+Only Part 1 is claimed so far. Parts still open to claim: rule-based agent,
+minimax / alpha-beta agent, experiment harness, and report + demo video. Grab
+one, then update the table and the layout below with your name.
 
 ## Repository layout
 
 | File | Owner | Status |
 |---|---|---|
-| `engine.py` | Member 1 | done, frozen. Shared rules (see `INTERFACE.md`) |
-| `base_agent.py` | Member 1 | done. The `select_move(game)` contract |
-| `random_agent.py` | Member 1 | done. Agent 1 (random baseline) |
-| `test_engine.py` | Member 1 | done. 8 correctness tests |
-| `demo_random_vs_random.py` | Member 1 | done. Full game plus harness template |
-| `INTERFACE.md` | Member 1 | done. One-page cheat sheet, build against this |
-| `rule_agent.py` | Member 2 | stub. Rule-based agent |
-| `minimax_agent.py` | Member 3 | stub. Minimax / alpha-beta agent |
-| `experiment.py` | Member 4 | stub. Match runner, results, seeds |
-| `Report.pdf` | Member 5 | exported from the shared Google Doc at the end |
+| `engine.py` | Ayuub | done, frozen. Shared rules (see `INTERFACE.md`) |
+| `base_agent.py` | Ayuub | done. The `select_move(game)` contract |
+| `random_agent.py` | Ayuub | done. Agent 1 (random baseline) |
+| `test_engine.py` | Ayuub | done. 8 correctness tests |
+| `demo_random_vs_random.py` | Ayuub | done. Full game plus harness template |
+| `INTERFACE.md` | Ayuub | done. One-page cheat sheet, build against this |
+| `rule_agent.py` | unassigned | stub. Rule-based agent |
+| `minimax_agent.py` | unassigned | stub. Minimax / alpha-beta agent |
+| `experiment.py` | unassigned | stub. Match runner, results, seeds |
+| `Report.pdf` | unassigned | exported from the shared Google Doc at the end |
 
 ## Quick start
 
