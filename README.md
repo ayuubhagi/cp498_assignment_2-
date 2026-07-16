@@ -1,22 +1,36 @@
-# CP468 Assignment 2 — Connect Four Agents
+# CP468 Assignment 2 - Connect Four Agents
 
 A Connect Four engine and a set of AI agents that play it, plus an experiment
 harness that pits them against each other. Group project for CP468.
+
+## Team (5 members)
+
+| # | Person | Owns | Status |
+|---|---|---|---|
+| 1 | Ayuub | engine + random agent (Part 1) | done |
+| 2 | Mohanad139 | rule-based agent | not started |
+| 3 | YakupBastug06 | minimax / alpha-beta agent | not started |
+| 4 | KhaledM0barak | experiment harness + results | not started |
+| 5 | (5th member) | report + demo video + integration testing | not started |
+
+Names above are a proposed split. Swap roles however the group agrees, then
+update this table. Member 5 owns the written report and the video, and runs
+`python3 test_engine.py` before each merge to keep `main` green.
 
 ## Repository layout
 
 | File | Owner | Status |
 |---|---|---|
-| `engine.py` | Ayuub | **done, frozen** — shared rules (see `INTERFACE.md`) |
-| `base_agent.py` | Ayuub | **done** — the `select_move(game)` contract |
-| `random_agent.py` | Ayuub | **done** — Agent 1 (random baseline) |
-| `test_engine.py` | Ayuub | **done** — 8 correctness tests |
-| `demo_random_vs_random.py` | Ayuub | **done** — full game + harness template |
-| `INTERFACE.md` | Ayuub | **done** — one-page cheat sheet, build against this |
-| `rule_agent.py` | Teammate 2 | stub — rule-based agent |
-| `minimax_agent.py` | Teammate 3 | stub — minimax / alpha-beta agent |
-| `experiment.py` | Teammate 4 | stub — match runner, results, seeds |
-| `Report.pdf` | everyone | exported from the shared Google Doc at the end |
+| `engine.py` | Member 1 | done, frozen. Shared rules (see `INTERFACE.md`) |
+| `base_agent.py` | Member 1 | done. The `select_move(game)` contract |
+| `random_agent.py` | Member 1 | done. Agent 1 (random baseline) |
+| `test_engine.py` | Member 1 | done. 8 correctness tests |
+| `demo_random_vs_random.py` | Member 1 | done. Full game plus harness template |
+| `INTERFACE.md` | Member 1 | done. One-page cheat sheet, build against this |
+| `rule_agent.py` | Member 2 | stub. Rule-based agent |
+| `minimax_agent.py` | Member 3 | stub. Minimax / alpha-beta agent |
+| `experiment.py` | Member 4 | stub. Match runner, results, seeds |
+| `Report.pdf` | Member 5 | exported from the shared Google Doc at the end |
 
 ## Quick start
 
@@ -27,16 +41,16 @@ python3 test_engine.py            # should print: All 8 engine tests passed.
 python3 demo_random_vs_random.py  # watch a full random game play out
 ```
 
-No dependencies — standard library only, Python 3.8+.
+No dependencies, standard library only, Python 3.8+.
 
 ## For teammates building an agent
 
-Read `INTERFACE.md`. It has everything: the state you can read, the methods you
-can call, both look-ahead patterns (copy vs apply/undo), and the tie-breaking
-snippet. You should not need to open `engine.py`.
+Read `INTERFACE.md`. It has everything you need: the state you can read, the
+methods you can call, both look-ahead patterns (copy vs apply/undo), and the
+tie-breaking snippet. You should not need to open `engine.py`.
 
-Subclass `BaseAgent` and implement `select_move(game)`. Don't mutate the `game`
-you're handed — use `game.copy()` or `apply_move()`/`undo_move()`.
+Subclass `BaseAgent` and implement `select_move(game)`. Do not mutate the `game`
+you are handed. Use `game.copy()` or `apply_move()` / `undo_move()`.
 
 ## How we work together (git flow)
 
@@ -48,16 +62,16 @@ are basically zero.
 3. Commit and push your branch: `git push -u origin minimax`.
 4. Open a pull request into `main`. Someone reviews and merges.
 
-**One hard rule:** `main` must always pass `python3 test_engine.py`. Don't merge
-anything that breaks it — that's what protects the harness person from inheriting
-a broken engine the night before the deadline.
+One hard rule: `main` must always pass `python3 test_engine.py`. Do not merge
+anything that breaks it. That is what stops the harness person from inheriting a
+broken engine the night before the deadline.
 
-If a teammate genuinely can't use git, send your one file to Ayuub and it gets
-committed for you — but git is worth learning, it's one afternoon.
+If a teammate cannot use git yet, send your one file to Ayuub and it gets
+committed for you. But git is worth learning, it is one afternoon.
 
-## Report & video
+## Report and video
 
-The written report lives in a shared Google Doc (co-write there, it's built for
-five people editing prose and tables). Export to `Report.pdf` at the very end and
-drop it in the repo. The demo video goes to YouTube (unlisted) or Drive; link it
-here and in the report.
+The written report lives in a shared Google Doc. Co-write there, it handles five
+people editing prose and tables far better than the repo does. Export to
+`Report.pdf` at the very end and drop it in the repo. The demo video goes to
+YouTube (unlisted) or Drive. Link it here and in the report.
