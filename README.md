@@ -28,7 +28,7 @@ one, then update the table and the layout below with your name.
 | `demo_random_vs_random.py` | Ayuub | done. Full game plus harness template |
 | `INTERFACE.md` | Ayuub | done. One-page cheat sheet, build against this |
 | `rule_agent.py` | unassigned | stub. Rule-based agent |
-| `minimax_agent.py` | unassigned | stub. Minimax / alpha-beta agent |
+| `minimax_agent.py` | Orhan | stub. Minimax / alpha-beta agent |
 | `experiment.py` | unassigned | stub. Match runner, results, seeds |
 | `Report.pdf` | unassigned | exported from the shared Google Doc at the end |
 
