@@ -10,7 +10,7 @@ harness that pits them against each other. Group project for CP468.
 | 1 | Ayuub | engine + random agent (Part 1) | done |
 | 2 | Mohanad139 | group member (part not chosen yet) | - |
 | 3 | YakupBastug06 | group member (part not chosen yet) | - |
-| 4 | KhaledM0barak | group member (part not chosen yet) | - |
+| 4 | KhaledM0barak | rule_agent + experiment | done |
 | 5 | orhangundogan | group member (part not chosen yet) | - |
 
 Only Part 1 is claimed so far. Parts still open to claim: rule-based agent,
@@ -27,9 +27,9 @@ one, then update the table and the layout below with your name.
 | `test_engine.py` | Ayuub | done. 8 correctness tests |
 | `demo_random_vs_random.py` | Ayuub | done. Full game plus harness template |
 | `INTERFACE.md` | Ayuub | done. One-page cheat sheet, build against this |
-| `rule_agent.py` | unassigned | stub. Rule-based agent |
+| `rule_agent.py` | Khaled | done. Rule-based agent |
 | `minimax_agent.py` | Orhan | stub. Minimax / alpha-beta agent |
-| `experiment.py` | unassigned | stub. Match runner, results, seeds |
+| `experiment.py` | Khaled | done. Match runner, results, seeds |
 | `Report.pdf` | unassigned | exported from the shared Google Doc at the end |
 
 ## Quick start
