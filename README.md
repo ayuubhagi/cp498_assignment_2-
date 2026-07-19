@@ -75,3 +75,5 @@ The written report lives in a shared Google Doc. Co-write there, it handles five
 people editing prose and tables far better than the repo does. Export to
 `Report.pdf` at the very end and drop it in the repo. The demo video goes to
 YouTube (unlisted) or Drive. Link it here and in the report.
+
+**Demo video:** https://www.youtube.com/watch?v=y9G-oM2I6Ys
