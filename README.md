@@ -8,7 +8,7 @@ harness that pits them against each other. Group project for CP468.
 | # | Member | Part | Status |
 |---|---|---|---|
 | 1 | Ayuub | engine + random agent (Part 1) | done |
-| 2 | Mohanad139 | group member (part not chosen yet) | - |
+| 2 | Mohanad139 | experiment + video | done |
 | 3 | YakupBastug06 | Minmax Agent + video | - |
 | 4 | KhaledM0barak | rule_agent + experiment | done |
 | 5 | orhangundogan | Minmax Agent + video | done |
