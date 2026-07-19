@@ -11,7 +11,7 @@ harness that pits them against each other. Group project for CP468.
 | 2 | Mohanad139 | group member (part not chosen yet) | - |
 | 3 | YakupBastug06 | Minmax Agent + video | - |
 | 4 | KhaledM0barak | rule_agent + experiment | done |
-| 5 | orhangundogan | Minmax Agent + video | - |
+| 5 | orhangundogan | Minmax Agent + video | done |
 
 Only Part 1 is claimed so far. Parts still open to claim: rule-based agent,
 minimax / alpha-beta agent, experiment harness, and report + demo video. Grab
